@@ -65,7 +65,7 @@ color: black;
     border: 1px solid transparent;
     color: white;
   }
-`,Lm=({toggle:e})=>R.jsxs(Im,{children:[R.jsx("div",{children:R.jsx("img",{src:"/Dices.png"})}),R.jsxs("div",{className:"content",children:[R.jsx("h1",{children:"Dice Game"}),R.jsx(Ku,{onClick:e,children:"Play Game"})]})]}),Im=qe.div`
+`,Lm=({toggle:e})=>R.jsxs(Im,{children:[R.jsx("div",{children:R.jsx("img",{src:"Dices.png"})}),R.jsxs("div",{className:"content",children:[R.jsx("h1",{children:"Dice Game"}),R.jsx(Ku,{onClick:e,children:"Play Game"})]})]}),Im=qe.div`
   max-width: 1180px;
   height: 100vh;
   display: flex;
@@ -116,7 +116,7 @@ color: black;
     font-size: 24px;
     font-weight: 500px;
   }
-`,Am=({currentDice:e,roleDice:t})=>R.jsxs(Um,{children:[R.jsx("div",{className:"dice",onClick:t,children:R.jsx("img",{src:`/dice_${e}.png`})}),R.jsx("p",{children:"Click on Dice to Roll"})]}),Um=qe.div`
+`,Am=({currentDice:e,roleDice:t})=>R.jsxs(Um,{children:[R.jsx("div",{className:"dice",onClick:t,children:R.jsx("img",{src:`dice_${e}.png`})}),R.jsx("p",{children:"Click on Dice to Roll"})]}),Um=qe.div`
   display: flex;
   align-items: center;
   flex-direction: column;
