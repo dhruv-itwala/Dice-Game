@@ -65,7 +65,7 @@ color: black;
     border: 1px solid transparent;
     color: white;
   }
-`,Lm=({toggle:e})=>R.jsxs(Im,{children:[R.jsx("div",{children:R.jsx("img",{src:"/src/assets/Dices.png"})}),R.jsxs("div",{className:"content",children:[R.jsx("h1",{children:"Dice Game"}),R.jsx(Ku,{onClick:e,children:"Play Game"})]})]}),Im=qe.div`
+`,Lm=({toggle:e})=>R.jsxs(Im,{children:[R.jsx("div",{children:R.jsx("img",{src:"src/assets/Dices.png"})}),R.jsxs("div",{className:"content",children:[R.jsx("h1",{children:"Dice Game"}),R.jsx(Ku,{onClick:e,children:"Play Game"})]})]}),Im=qe.div`
   max-width: 1180px;
   height: 100vh;
   display: flex;
