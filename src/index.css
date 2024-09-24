@@ -8,6 +8,19 @@
   margin: 0;
 }
 
-body{
+html, body {
+  margin: 0;
+  height: 100%; /* Ensures full height coverage */
+  background: linear-gradient(to bottom right, #8F94FB, #4E54C8);
+  overflow-x: hidden; /* Prevents horizontal scroll */
+}
+
+body {
+  display: flex;
+  flex-direction: column; /* Allows stacking of components */
   font-family: "Poppins",sans-serif;
+}
+
+.component {
+  flex-grow: 1; /* Ensures that components can expand properly */
 }
