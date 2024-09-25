@@ -65,7 +65,7 @@ color: black;
     border: 1px solid transparent;
     color: white;
   }
-`,Lm=({toggle:e})=>T.jsxs(Im,{children:[T.jsx("div",{children:T.jsx("img",{src:"Dices.png",height:"442",width:"550"})}),T.jsx("br",{}),T.jsxs("div",{className:"content",children:[T.jsx("h1",{children:"Dice Game"}),T.jsx(Ku,{onClick:e,children:"Play Game"})]})]}),Im=qe.div`
+`,Lm=({toggle:e})=>T.jsxs(Im,{children:[T.jsx("div",{children:T.jsx("img",{src:"Dices.png",alt:"DiceIcon",height:"442",width:"551"})}),T.jsx("br",{}),T.jsxs("div",{className:"content",children:[T.jsx("h1",{children:"Dice Game"}),T.jsx(Ku,{onClick:e,children:"Play Game"})]})]}),Im=qe.div`
   max-width: 1180px;
   height: 100vh;
   display: flex;
@@ -120,7 +120,7 @@ color: black;
     font-size: 24px;
     font-weight: 500px;
   }
-`,Am=({currentDice:e,roleDice:t})=>T.jsxs(Um,{children:[T.jsx("div",{className:"dice",onClick:t,children:T.jsx("img",{src:`dice_${e}.png`})}),T.jsx("p",{children:"Click on Dice to Roll"})]}),Um=qe.div`
+`,Am=({currentDice:e,roleDice:t})=>T.jsxs(Um,{children:[T.jsx("div",{className:"dice",onClick:t,children:T.jsx("img",{src:`${e}.png`,alt:"Dice",height:300,width:300})}),T.jsx("p",{children:"Click on Dice to Roll"})]}),Um=qe.div`
   display: flex;
   align-items: center;
   flex-direction: column;
