@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import Dice from "./Dice";
 
 const RollDice = ({ currentDice, roleDice }) => {
   return (

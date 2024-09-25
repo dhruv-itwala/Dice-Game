@@ -27,7 +27,13 @@ Dice Game is a simple and fun React-based game where players predict the outcome
 
 ## Screenshots
 
-![Game Screenshot](path/to/screenshot.png)
+![Game Screenshot](public/Screenshot_1.png)
+![Game Screenshot](public/Screenshot_3.png)
+![Game Screenshot](public/Screenshot_2.png)
+
+## Demo
+
+[React Weather App](https://dhruv06122002.github.io/Dice-Game/)
 
 ## Future Improvements
 
